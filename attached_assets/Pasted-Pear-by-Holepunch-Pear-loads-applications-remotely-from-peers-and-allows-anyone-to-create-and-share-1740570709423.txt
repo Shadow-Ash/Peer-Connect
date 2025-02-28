@@ -1,0 +1,213 @@
+Pear by Holepunch
+Pear loads applications remotely from peers and allows anyone to create and share applications with peers.
+
+Pear by Holepunch is a combined Peer-to-Peer (P2P) Runtime, Development & Deployment tool.
+
+Build, share & extend unstoppable, zero-infrastructure P2P applications for Desktop, Terminal & Mobile.
+
+Welcome to the Internet of Peers
+
+  – Holepunch, the P2P Company
+
+Table of Contents
+Pear Runtime
+References for Pear Runtime.
+
+Command-Line-Interface (CLI)
+
+Application-Programming-Interface (API)
+
+Application Configuration
+
+The Pear Runtime uses Bare JavaScript runtime, which is a small and modular JavaScript runtime for desktop and mobile. To learn more, see Bare Reference.
+
+Guides
+Guides on using the Pear Runtime to build and share P2P applications.
+
+Getting Started
+
+Starting a Pear Desktop Project
+
+Making a Pear Desktop Application
+
+Starting a Pear Terminal Project
+
+Making a Pear Terminal Application
+
+Sharing a Pear Application
+
+Releasing a Pear Application
+
+Creating a Pear Init Template
+
+How-tos
+Simple How-tos on using the essential building blocks in Pear applications.
+
+How to connect two peers by key with HyperDHT
+
+How to connect to many peers by topic with Hyperswarm
+
+How to replicate and persist with Hypercore
+
+How to work with many Hypercores using Corestore
+
+How to share append-only databases with Hyperbee
+
+How to create a full peer-to-peer filesystem with Hyperdrive
+
+Building blocks
+The essential building blocks for building powerful P2P applications using Pear.
+
+Name
+Description
+Stability
+Hypercore
+
+A distributed, secure append-only log for creating fast and scalable applications without a backend, as it is entirely P2P.
+
+stable
+
+Hyperbee
+
+An append-only B-tree running on a Hypercore. Allows sorted iteration and more.
+
+stable
+
+Hyperdrive
+
+A secure, real-time distributed file system that simplifies P2P file sharing and provides an efficient way to store and access data.
+
+stable
+
+Autobase
+
+A "virtual Hypercore" layer over many Hypercores owned by many different peers.
+
+experimental
+
+Hyperdht
+
+The Distributed Hash Table (DHT) powering Hyperswarm.
+
+stable
+
+Hyperswarm
+
+A high-level API for finding and connecting to peers who are interested in a "topic".
+
+stable
+
+Helpers
+Helper modules can be used together with the building blocks to create cutting-edge P2P tools and applications.
+
+Name
+Description
+Stability
+Corestore
+
+A Hypercore factory designed to facilitate the management of sizable named Hypercore collections.
+
+stable
+
+Localdrive
+
+A file system interoperable with Hyperdrive.
+
+stable
+
+Mirrordrive
+
+Mirror a Hyperdrive or a Localdrive into another one.
+
+stable
+
+Secretstream
+
+SecretStream is used to securely create connections between two peers in Hyperswarm.
+
+stable
+
+Compact-encoding
+
+A series of binary encoding schemes for building fast and small parsers and serializers. We use this in Keet to store chat messages and in Hypercore's replication protocol.
+
+stable
+
+Protomux
+
+Multiplex multiple message oriented protocols over a stream.
+
+stable
+
+Tools
+The following tools are used extensively employed in the day-to-day development and operation of applications built on Pear.
+
+Name
+Description
+Stability
+Hypershell
+
+A CLI to create and connect to P2P E2E encrypted shells.
+
+stable
+
+Hypertele
+
+A swiss-knife proxy powered by HyperDHT.
+
+stable
+
+Hyperbeam
+
+A one-to-one and end-to-end encrypted internet pipe.
+
+stable
+
+Hyperssh
+
+A CLI to run SSH over the HyperDHT.
+
+stable
+
+Drives
+
+CLI to download, seed, and mirror a Hyperdrive or a Localdrive.
+
+stable
+
+Apps
+Applications built using Pear.
+
+Keet: A peer-to-peer chat and video-conferencing application with end-to-end encryption.
+
+Examples
+Collection of example applications that can be used as reference during development.
+
+Cross-platform Pear App: Cross-platform "Hello World" Pear application for Android and iOS.
+
+Bare on Mobile: Reference applications for using Bare runtime on Android and iOS.
+
+React App using Pear: Example application for building Pear applications using React framework.
+
+Stability indexing
+Throughout the documentation, indications of stability are provided. Some modules are well-established and used widely, making them highly unlikely to ever change. Other modules may be new, experimental, or known to have risks associated with their use.
+
+The following stability indices have been used:
+
+Stability
+Description
+stable
+
+Unlikely to change or be removed in the foreseeable future.
+
+experimental
+
+New, untested, or have known issues.
+
+deprecated
+
+Being removed or replaced in the future.
+
+unstable
+
+May change or be removed without warning.
