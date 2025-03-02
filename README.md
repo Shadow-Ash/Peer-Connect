@@ -36,5 +36,5 @@ Peer Connect enables direct and private communication between users.  It offers 
 
 Contributions are welcome! Special thanks to the contributors:
 
-* Koushik1244 ([https://github.com/Koushik1244](Koushik1244))
-* dhanush-devx ([https://github.com/dhanush-devx](dhanush-devx))
+* Koushik1244 ([Koushik1244](https://github.com/Koushik1244))
+* dhanush-devx ([dhanush-devx](https://github.com/dhanush-devx))
