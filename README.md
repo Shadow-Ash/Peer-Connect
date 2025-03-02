@@ -1,6 +1,5 @@
-<h1>A Secure Peer to Peer Chat Application</h1>
 
-# Peer Connect - A Peer-to-Peer Chat Application
+# Peer Connect - A Peer-to-Peer Secure Chat Application
 
 Peer Connect is a simple and secure peer-to-peer chat application built using the Pears framework. It leverages Hypercore, Hyperbee, Hyperdht, Hyperswarm, Corestore, and Secretstream for decentralized communication, prioritizing user privacy and data security by eliminating the need for a central server.
 
